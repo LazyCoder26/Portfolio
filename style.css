@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: black;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-holder{
+    font-size: 145px;
+    font-family: outfit;
+}
+
+.one{
+    color: #fff;
+}
+
+.two{
+    color: #20fc8f;
+}
+
+.three{
+    color: #20fc8f;
+}
+
+.text-1 a{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    transition: all 0.45s ease;
+}
+.text-1 a:hover{
+    position: absolute;
+    left: 23%;
+    top: 15%;
+}
+
+.text-1 a:hover span{
+    display: none;
+}
+
+.text-1 a:hover::before{
+    color: #fff;
+    content: "About";
+}
+
+
+.text-2 a{
+    position: absolute;
+    left: 20%;
+    top: 33%;
+    transition: all 0.45s ease;
+    color: #20fc8f;
+}
+
+.text-2 a:hover{
+    position: absolute;
+    left: 22%;
+    top: 33%;
+}
+
+.text-2 a:hover span{
+    display: none;
+}
+
+.text-2 a:hover::before{
+    color: #20fc8f;
+    content: "Work";
+}
+
+.text-3 a:hover{
+    position: absolute;
+    left: 23%;
+    top: 51%;
+}
+
+.text-3 a:hover{
+    position: absolute;
+    left: 22%;
+    top: 33%;
+}
+.text-3 a:hover span{
+    display: none;
+}
+
+.text-3 a:hover::before{
+    content: "Contact";
+    color: #20fc8f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: black;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-holder{
+    font-size: 145px;
+    font-family: outfit;
+}
+
+.one{
+    color: #fff;
+}
+
+.two{
+    color: #20fc8f;
+}
+
+.three{
+    color: #20fc8f;
+}
+
+.text-1 a{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    transition: all 0.45s ease;
+}
+.text-1 a:hover{
+    position: absolute;
+    left: 23%;
+    top: 15%;
+}
+
+.text-1 a:hover span{
+    display: none;
+}
+
+.text-1 a:hover::before{
+    color: #fff;
+    content: "About";
+}
+
+
+.text-2 a{
+    position: absolute;
+    left: 20%;
+    top: 33%;
+    transition: all 0.45s ease;
+    color: #20fc8f;
+}
+
+.text-2 a:hover{
+    position: absolute;
+    left: 22%;
+    top: 33%;
+}
+
+.text-2 a:hover span{
+    display: none;
+}
+
+.text-2 a:hover::before{
+    color: #20fc8f;
+    content: "Work";
+}
+
+.text-3 a{
+    position: absolute;
+    left: 20%;
+    top: 51%;
+    transition: all 0.45s ease;
+}
+
+.text-3 a:hover{
+    position: absolute;
+    left: 23%;
+    top: 51%;
+}
+
+.text-3 a:hover span{
+    display: none;
+}
+
+.text-3 a:hover::before{
+    content: "Contact";
+    color: #20fc8f;
+}
+
+.about-sec{
+    background: black;
+}
+
+.about-main{
+    position: absolute;
+    color: white;
+    font-family: outfit;
+    font-size: 115px;
+    left: 20%;
+    top: 16%;
+}
+
+.about-home a{
+    position: fixed;
+    font-family: outfit;
+    color: #20fc8f;
+    font-size: 30px;
+    top: 7%;
+    left: 80%;
+    z-index: 2;
+    transition: all 0.45s ease;
+}
+
+
+.about-home a:hover span{
+    display: none;
+    transition: 0.45s ease;
+}
+
+.about-home a:hover::after{
+    content: "io";
+    color: #20fc8f;
+    transition: 0.45s ease;
+}
+
+.about-img{
+    position: absolute;
+    top: 100%;
+    left: 18.5%;
+}
+
+.about{
+    position: absolute;
+    color: #20fc8f;
+    font-size: 30px;
+    font-family: outfit;
+    top: 205%;
+    width: 48%;
+    left: 27%;
+}
+
+.about-me{
+    position: absolute;
+    color: #fff;
+    top: 205%;
+    font-family: readex pro;
+    font-size: 20px;
+    
+}
+
+.work{
+    position: absolute;
+}
